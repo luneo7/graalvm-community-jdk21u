@@ -42,7 +42,7 @@ suite = {
   "mxversion": "6.41.0",
   "name" : "wasm",
   "groupId" : "org.graalvm.wasm",
-  "version" : "23.1.6",
+  "version" : "23.1.7",
   "versionConflictResolution" : "latest",
   "url" : "http://graalvm.org/",
   "developer" : {
@@ -111,6 +111,7 @@ suite = {
       "dependencies" : [
         "org.graalvm.wasm",
         "truffle:TRUFFLE_API",
+        "mx:JUNIT",
       ],
       "checkstyle" : "org.graalvm.wasm",
       "javaCompliance" : "17+",
